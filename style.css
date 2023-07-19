@@ -1,60 +1,57 @@
-.all {
-    /* border: 10px solid white;
-    border-radius: 20px; */
+@media (max-width: 500px){
+    img {
+        display: none;
+    }
 }
 body {
-    background-color:rgb(31, 31, 31);
-    /* padding: 5rem 25rem 0rem 25rem; */
-    padding: 5% 25% 0% 25%;
+    background-color: rgb(31, 31, 31);
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-top:6%;
 }
 
-img {
-    float:right;
-}
-.img {
-    display: flex;
-    aspect-ratio: 10 / 2;
-}
-
-.container  { 
-    display: flex;
-}
-.section {
-    margin: 10px;
-    max-width: 700px;
-    justify-content: center;
-    background-color: rgb(197, 140, 219);
-    border: 10px Solid rgb(221, 191, 252);
-    border-radius: 10px;
-
-}
-.one, .two, .three {
-    width: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-
-}
+/* Header Div */
 .header {
-    color: rgb(0, 0, 0);
-    background-color: white;
-    border: 10px solid white;
-    text-align: center;
-    
+    margin: auto;
+    padding: 0% 10%;
+    max-width: 900px;
 }
+header {
+    text-align: center;
+    border: white 10px solid;
+    background-color: white;
+}
+h3 {
+    color: rgb(221, 191, 252);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.img {display:flex;}
+img {max-height: 200px;}
 
-h1, p{
+/* Container Div*/
+h1,p {
     color: rgb(53, 2, 54);
     font-size: 20px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
 }
+
+.container {
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+
+.One, .Two, .Three {
+    width:200px;
+    border: 10px Solid rgb(221, 191, 252); background-color: rgb(197, 140, 219);
+    border-radius: 10px;
+    margin: 45px;
+}
+/* Footer */
 footer {
     text-align: center;
-    color: dimgray;
-}
-.about {
-    color: rgb(221, 191, 252);
-    font-family:'Times New Roman', Times, serif;
+    color: dimgrey;
+    padding-top: 4%;
 }
