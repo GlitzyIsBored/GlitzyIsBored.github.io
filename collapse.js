@@ -8,5 +8,3 @@ function action() {
     collapse.classList.toggle('click');
 
 }
-
-
