@@ -1,5 +1,5 @@
 @media (max-width: 500px){
-    img {
+    #xiao {
         display: none;
     }
 }
@@ -58,17 +58,18 @@ body {
     background-color: rgb(31, 31, 31);
     /* margin-left: auto;
     margin-right: auto; */
-    margin-top:6%;
+    margin-top: 12vh;
+    margin-left: 0;
 }
 
 /* Header Div */
 .header {
-    top: 0;
+    top: 50px;
     margin: auto;
     padding: 0% 10%;
     max-width: 900px;
 }
-header {
+#title {
     text-align: center;
     border: white 10px solid;
     background-color: white;
@@ -79,7 +80,7 @@ h3 {
     text-align: center;
 }
 .img {display:flex;}
-img {max-height: 200px;}
+#xiao {max-height: 200px;}
 
 /* Container Div*/
 h1,p {
@@ -107,3 +108,4 @@ footer {
     color: dimgrey;
     padding-top: 4%;
 }
+
